@@ -1,0 +1,9 @@
+
+
+p {
+  transition: all ease-in-out 10s;
+}
+
+img {
+  border-radius: 100px !important;
+}
