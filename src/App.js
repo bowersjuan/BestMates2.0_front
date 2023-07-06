@@ -1,20 +1,25 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Landing from "./pages/Landing";
 import "./App.css";
 
-const Router = createBrowserRouter({
-  
-})
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Landing />,
+    children: [
+      {
+        path: "team",
+        element: <p>Team</p>,
+      },
+    ],
+  },
+]);
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Landing />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <RouterProvider router={router} />
+    </div>
   );
 }
 
