@@ -1,4 +1,9 @@
-
+.bigRight {
+  z-Index: 1;
+  font-size: 201px;
+  font-weight: 900;
+  text-align: Right;
+}
 
 p {
   transition: all ease-in-out 10s;

@@ -1,6 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Landing from "./pages/Landing";
 import "./App.css";
+
+const Router = createBrowserRouter({
+  
+})
 
 function App() {
   return (

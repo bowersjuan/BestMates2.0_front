@@ -53,7 +53,7 @@ export default function GetStarted() {
             fontWeight: "900",
             textAlign: "Left",
           }}>
-          Hello
+          Sign In
         </p>
       </div>
       <div>
@@ -61,16 +61,7 @@ export default function GetStarted() {
           src="https://images.pexels.com/photos/7142963/pexels-photo-7142963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="roommates"
         />
-        <p
-          style={{
-            transition: "all ease 20s",
-            zIndex: "1",
-            fontSize: "201px",
-            fontWeight: "900",
-            textAlign: "Right",
-          }}>
-          Hello
-        </p>
+        <p className="bigRight">...or Sign Up</p>
       </div>
     </div>
   );
